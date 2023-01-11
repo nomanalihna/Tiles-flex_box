@@ -38,3 +38,6 @@ h2, p, button{
     color: black;
     cursor: pointer;
 }
+.tiles{
+    height: auto;
+}
