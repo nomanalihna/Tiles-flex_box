@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+}
+.container>div img{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tiles{
+    width: 100%;
+    height: auto;
+    margin: 2rem;
+    padding: 0;
+    box-shadow: 4px 4px 20px gray;
+}
+.tiles>div{
+    padding: 1.5rem;
+}
+h2, p, button{
+    margin: 1rem auto;
+}
+.tiles div button{
+    width: 100%;
+    padding: 10px;
+    font-weight: bolder; 
+    background-color: gray;
+    color: white;
+    border: none;
+}
+.tiles div button:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
